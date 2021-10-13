@@ -33,7 +33,7 @@ ul{
 li {
     float: right;
     padding-left: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
     list-style: none;}
 
