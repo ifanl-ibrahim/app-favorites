@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(Images/fresh-snow-1920x1080.png);
+    font-family: 'Caesar Dressing', cursive;}
+
+header{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    background: url(Images/ADN-Anime-Digital-Network.jpg);
+    background-size: cover;}
+    
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    margin: 0;
+    flex-wrap: wrap;
+    background-color: rgba(27, 122, 185, 0.548)  ;
+    box-shadow: 5px 5px 5px black;
+    list-style-type: none;}
+
+ul{
+    display: flex;
+    align-items: center;}
+
+li {
+    float: right;
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    list-style: none;}
+
+#logo-navbar{
+    width: 70px;
+    height: auto;}
+
+li a {
+    display: block;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;}
+
+article{
+    font-size: x-large;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    color: deepskyblue;}
+
+    .video {
+        width: 750px;
+        position: static;
+        top: 600px;
+        left: 500px;}
+
+    u{
+        color: floralwhite;
+    }    
+
+ img {
+     width: 200px;
+    position: static;
+    top: 200px;
+    left: 200px;}
+
+footer{
+    background-color: deepskyblue;}

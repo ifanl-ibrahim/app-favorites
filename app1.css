@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(Images/mur-de-briques-1920x1080.png);
+    font-family: 'Sedgwick Ave Display', 'cursive';}
+
+header{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    background: url(Images/Instagram-Logo.jpg);
+    background-size: cover;}
+    
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    margin: 0;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.301)  ;
+    box-shadow: 5px 5px 5px black;
+    list-style-type: none;}
+
+ul{
+    display: flex;
+    align-items: center;}
+
+li {
+    float: right;
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    list-style: none;}
+
+#logo-navbar{
+    width: 70px;
+    height: auto;}
+
+li a {
+    display: block;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+
+article{
+    font-size: x-large;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    color: black;}
+
+    .video {
+        width: 750px;
+        position: static;
+        top: 300px;
+        left: 500px;}
+
+ img {
+     width: 200px;
+    position: static;
+    top: 200px;
+    left: 200px;}
+
+footer{
+    background-color: honeydew;}

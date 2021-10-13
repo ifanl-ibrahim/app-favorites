@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(Images/poussi-re-d--toiles-1920x1080.png);
+    font-family: 'IM Fell Double Pica SC', serif;}
+
+header{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    background: url(Images/mawaqit_logo.png);
+    background-size: cover;}
+    
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    margin: 0;
+    flex-wrap: wrap;
+    background-color: rgba(98, 15, 119, 0.534)  ;
+    box-shadow: 5px 5px 5px black;
+    list-style-type: none;}
+
+ul{
+    display: flex;
+    align-items: center;}
+
+li {
+    float: right;
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    list-style: none;}
+
+#logo-navbar{
+    width: 150px;
+    height: auto;}
+
+li a {
+    display: block;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+    color: black;}
+
+.list{
+    font-size: large;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    text-align: center;
+    color: ivory;}
+
+img{
+    width: 150px;
+    top: 150px;
+    left: 150px;}
+
+main{
+    display: flex;
+    justify-content: space-between;}
+
+.texte{
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+    color: ivory;}
+
+.att{
+    color: mediumorchid;}
+
+footer{
+    background-color: green;}
+
+.lien{
+    width: 150px;
+    top: 150px;
+    left: 150px;}
